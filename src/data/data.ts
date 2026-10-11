@@ -15,19 +15,19 @@
 
 // this interface defines the structure of a World of Warcraft character object
 export interface WoWCharacter {
-    id: number;
-    name: string;
-    characterClass: string;
-    race: string;
-    specialization: string;
-    level: number;
+    id: number
+    name: string
+    characterClass: string
+    race: string
+    specialization: string
+    level: number
 }
 
 // this interface defines the structure of a character's class object
 export interface WoWClass {
-    name: string;
-    color: string;
-    icon: string;
+    name: string
+    color: string
+    icon: string
 }
 
 // this array contains the available classes in World of Warcraft, along with their associated colors and icons

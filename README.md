@@ -12,8 +12,9 @@ I'll also be including comments throughout the project to explain new concepts a
 
 ## Current Progress
 
-* Created the React + TypeScript project using Vite.
-* Set up the GitHub repository.
-* Created data.ts with the character data, class information and starting characters.
+* Created the React + TypeScript project using Vite and connected the GitHub repository.
+* Created `data.ts` with the character data, class information and starting characters.
+* Created `Card.tsx` to display the information for an individual character.
+* Created `CardContainer.tsx` to generate a card for each character using `.map()`.
 
 More features will be added as I work on the project.

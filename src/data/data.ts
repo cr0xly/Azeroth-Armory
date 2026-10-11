@@ -1,6 +1,5 @@
 /*
     Cr0xly
-    Oct 10, 2026
 
     Unlike previous React labs where we only used one interface and an array of
     objects, this project uses additional data for character creation, including
@@ -54,6 +53,18 @@ export const races: string[] = [
     "Tauren",
     "Troll"
 ]
+
+// this object pairs each playable race with its portrait image
+export const raceImages: Record<string, string> = {
+    Human: "/images/races/Humans.gif",
+    Dwarf: "/images/races/Dwarves.gif",
+    "Night Elf": "/images/races/Night_Elves.gif",
+    Gnome: "/images/races/Gnomes.gif",
+    Orc: "/images/races/Orcs.gif",
+    Undead: "/images/races/Undead.gif",
+    Tauren: "/images/races/Tauren.gif",
+    Troll: "/images/races/Trolls.gif"
+}
 
 // this object maps each class to its available specializations
 // ***Record<string, string[]> is a TypeScript utility type that represents an object with string keys and values of type string[]***
